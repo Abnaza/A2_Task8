@@ -1,7 +1,6 @@
 ---
 - name: Ping Hosts
   hosts: Client
-  become: yes
   become_user: anna
   tasks:
     - name: Perform Ping
